@@ -1,0 +1,1 @@
+mvn install:install-file "-Dfile=E:\JavaWork3\aspose-cad\aspose-cad-24.1.jar" "-DgroupId=com.aspose" "-DartifactId=aspose-cad" "-Dversion=24.1" "-Dpackaging=jar"

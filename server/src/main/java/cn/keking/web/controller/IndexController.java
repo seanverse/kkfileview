@@ -23,7 +23,7 @@ public class IndexController {
 
     @GetMapping( "/sponsor")
     public String go2Sponsor(){
-        return "/main/sponsor";
+        return "/main/index";
     }
 
     @GetMapping( "/integrated")

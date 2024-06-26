@@ -8,7 +8,3 @@
 
  => Spring Boot             ::  ${spring-boot.version}
  => kkFileView              ::  4.3.0
- => Home site               ::  https://kkview.cn
- => Github                  ::  https://github.com/kekingcn/kkFileView
- => Gitee                   ::  https://gitee.com/kekingcn/file-online-preview
- => kk opensource community ::  https://t.zsxq.com/09ZHSXbsQ

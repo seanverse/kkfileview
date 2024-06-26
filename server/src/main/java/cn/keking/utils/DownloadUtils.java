@@ -88,11 +88,11 @@ public class DownloadUtils {
             response.setMsg(fileName);
             return response;
         } catch (IOException | GalimatiasParseException e) {
-            logger.error("文件下载失败，url：{}", urlStr);
+            logger.error("文件下载失败，url：{}", urlStr, e);
             response.setCode(1);
             response.setContent(null);
             if (e instanceof FileNotFoundException) {
-                response.setMsg("文件不存在!!!");
+                response.setMsg("预览的文件不存在");
             } else {
                 response.setMsg(e.getMessage());
             }

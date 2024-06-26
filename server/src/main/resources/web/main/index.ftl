@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0"/>
-    <title>kkFileView演示首页</title>
+    <title>FileView演示首页</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/viewer.min.css"/>
     <link rel="stylesheet" href="css/loading.css"/>
@@ -44,7 +44,6 @@
                 <li class="active"><a href="./index">首页</a></li>
                 <li><a href="./integrated">接入说明</a></li>
                 <li><a href="./record">版本发布记录</a></li>
-                <li><a href="./sponsor">赞助开源</a></li>
             </ul>
         </div>
     </div>

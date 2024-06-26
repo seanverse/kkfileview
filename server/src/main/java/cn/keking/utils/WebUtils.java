@@ -250,7 +250,12 @@ public class WebUtils {
 
     /**
      * 获取 url 的 host
+     * 示例:
+     * 1. 输入: "http://localhost/preview", 返回: "localhost"
+     * 2. 输入: "http://localhost:8012/..." 返回: "localhost"
+     * 3. 输入: "http://ai.brocloud.com/..." 返回: "ai.brocloud.com"
      * @param urlStr url
+     *
      * @return host
      */
     public static String getHost(String urlStr) {
